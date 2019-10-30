@@ -1,8 +1,6 @@
 import React from 'react';
 import PokemonInfo from "./PokemonInfo";
 import './App.css';
-const Pokedex = require('pokedex-promise-v2');
-let P = new Pokedex();
 
 function App() {
   return (
