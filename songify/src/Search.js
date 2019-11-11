@@ -6,12 +6,12 @@ class Search extends Component {
         super()
         this.state = {
             userInput: "",
-            songs: ["crazy frog", "you belong with me", "despacito"]
+            songs: ["crazy frog", "you belong with me", "despacito", "so am I", "barbie girl", "doctor jones", "the way", "fireflies", "500 miles", "coco jumbo", "born to try", "all summer long", "so what", "believe", "big girl", "born to be wild"]
         }
         // this.handleClick = this.handleClick.bind(this)
     }
 
-    handeClick = (event) => {
+    handleClick = (event) => {
         event.preventDefault()
     }
 
